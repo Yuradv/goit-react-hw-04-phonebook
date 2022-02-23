@@ -1,0 +1,27 @@
+.list {
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  display: block;
+  margin-left: 20px;
+  padding: 7px;
+  border-radius: 6px;
+  border: none;
+  outline: 2px solid grey;
+  cursor: pointer;
+  background-color: #40826d;
+  color: white;
+  transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:focus,
+.button:hover {
+  background-color: #ed9121;
+}
