@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import s from './Form.module.css';
-import shortid from 'shortid';
 
 class Form extends Component {
   state = {
